@@ -378,5 +378,8 @@ if __name__ == "__main__":
     print(b.classify('Summer break is almost here.  I am super excited and I know that its going to be the best'))
     print(b.classify('This was crazy incredible. Absolutely stunning cast.'))
     print(b.classify('I cant believe how amazing this movie is! Definitely a top 10.'))
+    print(b.classify("I am nervous that I won't do well on the AP tests.  I have studied, but I don't think I'll do that well"))
+    print(b.classify('I hate this stupid math class.'))
+    print(b.classify('I failed the AP test. It was a very bad day.'))
     b.interactive_classification()
     pass
